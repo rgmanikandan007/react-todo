@@ -1,0 +1,11 @@
+.inputFiled button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.inputFiled input{
+    padding: 5px 20px;
+}
+li{
+    list-style-type: none;
+}

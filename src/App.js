@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Contactform from './Components/Contactform';
+import Parent from './Components/Parent';
+import Todo from './Components/Todo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Todo /><hr/>
+      <Parent /><hr/>
+      <Contactform />
     </div>
   );
 }
