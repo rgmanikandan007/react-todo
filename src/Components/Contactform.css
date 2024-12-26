@@ -1,5 +1,4 @@
 input{
-    /* margin-bottom : 1rem; */
     padding: 6px 20px;
 }
 form{
@@ -7,4 +6,8 @@ form{
 }
 button{
     cursor: pointer;
+}
+form p{
+    color: red;
+    font-size: 13px;
 }

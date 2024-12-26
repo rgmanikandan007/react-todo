@@ -13,15 +13,19 @@ function Contactform() {
 
     const handleName = (e) => {
         setName(e.target.value);
+        setNameerror("");
     }
     const handleEmail = (e) => {
         setEmail(e.target.value);
+        setEmailerror("")
     }
     const handleMobile = (e) => {
         setMobile(e.target.value);
+        setMobileerror("")
     }
     const handlePassword = (e) => {
         setPassword(e.target.value);
+        setPassworderror("")
     }
 
 
@@ -29,28 +33,20 @@ function Contactform() {
     
         if(name == ""){
             setNameerror("Please Enter Name");
-        } else {
-            setNameerror("");
-        }
+        } 
         
         if(email == ""){
             setEmailerror("Please Enter Email");
-        } else {
-            setEmailerror("")
-        }
+        } 
         
         if(mobile == ""){
             setMobileerror("Please Enter Mobile");
-        } else {
-            setMobileerror("")
-        }
+        }  
         
         if(password == ""){
             setPassworderror("Please Enter Password");
-        } else {
-            setPassworderror("")
         }
-        
+
     }
 
     return (
